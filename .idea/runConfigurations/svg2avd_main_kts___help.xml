@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="svg2avd.main.kts --help" type="KotlinStandaloneScriptRunConfigurationType">
+    <option name="ALTERNATIVE_JRE_PATH" value="BUNDLED" />
+    <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+    <module name="svg2avd" />
+    <option name="PROGRAM_PARAMETERS" value="-- --help" />
+    <shortenClasspath name="NONE" />
+    <option name="filePath" value="$PROJECT_DIR$/svg2avd.main.kts" />
+    <method v="2" />
+  </configuration>
+</component>

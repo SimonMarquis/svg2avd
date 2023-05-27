@@ -1,0 +1,20 @@
+name: Demo
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+            node-version: lts/Hydrogen
+            cache: "npm"
+      - run: npm -g install svgo
+      - run: ./svg2avd.main.kts --help
+      - run: ./svg2avd.main.kts --input=icons
+      - run: ./svg2avd.main.kts --input=icons --precision=2

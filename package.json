@@ -1,0 +1,22 @@
+{
+  "name": "svg2avd",
+  "version": "1.0.0",
+  "description": "Kotlin script to convert SVG files to AVD (Android Vector Drawable)",
+  "main": "index.js",
+  "scripts": {
+    "test": "./svg2avd.main.kts --help"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SimonMarquis/svg2avd.git"
+  },
+  "author": "Simon Marquis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SimonMarquis/svg2avd/issues"
+  },
+  "homepage": "https://github.com/SimonMarquis/svg2avd#readme",
+  "dependencies": {
+    "svgo": "^3.0.2"
+  }
+}
